@@ -1,8 +1,12 @@
-from modelos.atividade_04 import Livro
+# QUESTÃO 5
+from modelos.livro import Livro
 
+# QUESTÃO 6
+# livro_biblioteca=Livro('O saci','Monteiro Lobato',1921)
+# print(f'Livro: {livro_biblioteca.disponivel}')
+# livro_biblioteca.emprestar()
+# print(f'Livro: {livro_biblioteca.disponivel}')
 
-livro4=Livro('Memórias da Emília', ' Monteiro Lobato', 1936)
-
-print(f'Livro: {livro4.disponivel}')
-livro4.emprestar()
-print(f'Livro: {livro4.disponivel}')
+# QUESTÃO 7
+ano_especifico=1921
+Livro.verificar_disponibilidade(ano_especifico)
